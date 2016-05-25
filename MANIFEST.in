@@ -1,0 +1,14 @@
+include setup.py
+include README.md
+include Makefile
+include MANIFEST.in
+include LICENSE.txt
+include pytest.ini
+include tox.ini
+include setup.cfg
+
+recursive-include fncache *.py
+
+recursive-exclude * *.pyc
+recursive-exclude * *.pyo
+recursive-exclude * *.DS_Store
